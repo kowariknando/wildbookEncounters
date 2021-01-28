@@ -1,0 +1,4 @@
+[6760:22196:1207/175227.056:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://lynx.wildbook.org/login.jsp;jsessionid=9F689A512D7834D37B32113A33C613F7 (0)
+[6760:22196:1207/175232.791:ERROR:device_event_log_impl.cc(211)] [17:52:32.801] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6760:22196:1207/175232.791:ERROR:device_event_log_impl.cc(211)] [17:52:32.802] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6760:22196:1207/175235.402:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
