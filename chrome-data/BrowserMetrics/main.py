@@ -24,7 +24,7 @@ driver = webdriver.Chrome(PATH)
 #link = "https://lynx.wildbook.org/encounters/encounter.jsp?number=a720ce40-3e86-4a31-95d8-be136bf64c5a"
 #link = "https://lynx.wildbook.org/encounters/searchResults.jsp?locationCodeField=CATSMO&male=male&female=female&unknown=unknown&alive=alive&dead=dead&numSearchedObs=1&lifeStageField=None&label0=None&numResights=1&biomeasurement13C%28operator%29=gteq&biomeasurement15N%28operator%29=gteq&biomeasurement34S%28operator%29=gteq&organizationId=None&projectId=None&submitSearch=Search+Sightings"
 # link = "https://lynx.wildbook.org/login.jsp"
-# login.login(driver, "userR", "123456", link)
+# login.login(driver, "YOUR USER", "PASSWORD", link)
 
 
 
@@ -37,7 +37,7 @@ driver = webdriver.Chrome(PATH)
 # open_elements_table(driver)
 
 #####login using the specified User and the password
-#login.login(driver, "userR", "123456", link) #we login and go directly to the link = encounter Seacrh
+#login.login(driver, "YOURUSER", "PASSWORD", link) #we login and go directly to the link = encounter Seacrh
 #####Navigate and filter in Search Encounters
 #location_filter_text(driver, "CATSMO") #Location filter text by Location ID
 #location_filter_map(driver, 15,15,-15,-15) #Location filter map by coordenates
@@ -122,7 +122,7 @@ print("finished!")
 
 #TODO ####GETTING COOKIES AND SAVING THEM INTO cookies.txt
 # link = "https://lynx.wildbook.org/encounters/encounterSearch.jsp"
-# login.login(driver, "userR", "123456", link)
+# login.login(driver, "YOURUSER", "PASSWORD", link)
 # my_cookies = driver.get_cookies()
 # print(my_cookies)
 # with open('cookies.txt', 'w') as f:
