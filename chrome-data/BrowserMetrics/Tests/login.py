@@ -42,8 +42,8 @@ class LoginTest(unittest.TestCase):
         driver = self.driver
         driver.get("https://lynx.wildbook.org/login.jsp")
         login = LoginPage(driver)
-        login.enter_username("userR3333")
-        login.enter_password("123456")
+        login.enter_username("ENTERYOURUSER")
+        login.enter_password("PASSWORD")
         login.click_login()
         welcome_url = "https://lynx.wildbook.org/welcome.jsp"
         current_url = login.check_url()
